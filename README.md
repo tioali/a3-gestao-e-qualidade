@@ -84,7 +84,7 @@ Instale as dependências:
 **Teste**
 
 - Executar Testes
-        pytest test_funcionarios.py -v
+          pytest test_funcionarios.py -v
   
 - Cobertura dos Testes
     Validação de Dados:	Nomes vazios, horas negativas, vendas inválidas.
@@ -102,9 +102,7 @@ Estrutura do Projeto
     Cálculo Salarial: salario_total() combina salário base e bônus.
     Geração de Relatório: RelatorioTexto ou RelatorioJSON.
 
-
-
-## Contato
+## Desenvolvedores
 - Autores / RA: 
 Matheus Esteves / 3322210957
 
