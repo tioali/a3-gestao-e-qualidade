@@ -54,7 +54,7 @@ Como Usar
       relatorio_json = RelatorioJSON().gerar(vendedor)  
       print(relatorio_json)
   
-- Saída (JSON formatado):
+-   Saída (JSON formatado):
 
         {  
           "nome": "João Costa",  
@@ -65,7 +65,7 @@ Como Usar
           "salario_total": 2800.00  
         }  
 
-Testes
+**Testes**
 
 - Executar Testes
         pytest test_funcionarios.py -v
@@ -86,7 +86,7 @@ Estrutura do Projeto
     Cálculo Salarial: salario_total() combina salário base e bônus.
     Geração de Relatório: RelatorioTexto ou RelatorioJSON.
 
-Contato
+**Contato**
 - Autores / RA: 
 Matheus Esteves / 3322210957
 
