@@ -42,7 +42,7 @@ Clone o repositório:
 Instale as dependências:
 - pip install pytest  
 
-**Como Usar**
+## Como Usar
 - Exemplo 1: Criar Funcionário
   
         from funcionarios import FabricaFuncionario  
@@ -81,10 +81,10 @@ Instale as dependências:
           "salario_total": 2800.00  
         }  
 
-**Teste**
-
-- Executar Testes
-          pytest test_funcionarios.py -v
+## Teste
+**Execute todos os Testes com:**
+        
+        pytest test_funcionarios.py -v
   
 - Cobertura dos Testes
     Validação de Dados:	Nomes vazios, horas negativas, vendas inválidas.
@@ -92,7 +92,8 @@ Instale as dependências:
     Relatórios:	Formatação de moeda, JSON válido.
     Exceções:	Tipos não registrados, parâmetros faltantes.
   
-Estrutura do Projeto
+**Estrutura do Projeto**
+
 - Arquivos Principais
     funcionarios.py:	Classes Funcionario, Estagiario, Vendedor, etc.
     test_funcionarios.py:	Testes unitários para todas as funcionalidades.
@@ -101,6 +102,21 @@ Estrutura do Projeto
     Criação de Funcionário: Via FabricaFuncionario.
     Cálculo Salarial: salario_total() combina salário base e bônus.
     Geração de Relatório: RelatorioTexto ou RelatorioJSON.
+
+## Implantação
+  Logs: Todos os erros são registrados em funcionarios.log.
+  Personalização: Para adicionar novos tipos de funcionários:
+  Crie uma subclass de Funcionario.
+
+- Registre-a na fábrica:
+
+      FabricaFuncionario.registrar_tipo("novo_tipo", NovoFuncionario)
+
+## Construído com
+  Python - Linguagem principal
+  pytest - Framework de testes
+  Decimal (módulo padrão) - Precisão monetária
+  logging (módulo padrão) - Gestão de logs
 
 ## Desenvolvedores
 - Autores / RA: 
