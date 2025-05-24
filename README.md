@@ -19,14 +19,14 @@ Pré-requisitos
 - Python 3.8+
 - Gerenciador de pacotes pip.
 
-Passos
+**Passos**
 Clone o repositório:
 - git clone https://github.com/seu-usuario/gestao-funcionarios.git
 - cd gestao-funcionarios 
 Instale as dependências:
 - pip install pytest  
 
-Como Usar
+**Como Usar**
 - Exemplo 1: Criar Funcionário
   
         from funcionarios import FabricaFuncionario  
@@ -65,7 +65,7 @@ Como Usar
           "salario_total": 2800.00  
         }  
 
-**Testes**
+**Teste**
 
 - Executar Testes
         pytest test_funcionarios.py -v
