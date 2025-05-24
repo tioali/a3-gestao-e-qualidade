@@ -119,6 +119,6 @@ Instale as dependências:
 - logging (módulo padrão) - Gestão de logs
 
 ## Desenvolvedores
-- Autores / RA: 
-Matheus Esteves / 3322210957
+**Autores / RA:**
+- Matheus Esteves / 3322210957
 
