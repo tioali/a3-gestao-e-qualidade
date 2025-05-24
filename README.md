@@ -113,10 +113,10 @@ Instale as dependências:
       FabricaFuncionario.registrar_tipo("novo_tipo", NovoFuncionario)
 
 ## Construído com
-  Python - Linguagem principal
-  pytest - Framework de testes
-  Decimal (módulo padrão) - Precisão monetária
-  logging (módulo padrão) - Gestão de logs
+- Python - Linguagem principal
+- pytest - Framework de testes
+- Decimal (módulo padrão) - Precisão monetária
+- logging (módulo padrão) - Gestão de logs
 
 ## Desenvolvedores
 - Autores / RA: 
